@@ -1,55 +1,7 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 20vh;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  justify-content: left;
-  font-size: calc(10px + 1.5vmin);
-  color: white;
-}
-
 .App-body {
-  min-height: 100vh;
-  background-color: #282c34;
+    min-height: 95vmin;
 }
 
-.App-form {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(8px + 1.5vmin);
-  color: white;
+.check--text {
+    cursor: pointer;
 }
-
-.App-input{
-  justify-content: left;
-  flex-direction: row;
-}
-
-.App-submit {
-  justify-content: left;
-  flex-direction: row;
-}
-
-.App-list {
-  display: flex;
-  flex: 2;
-  flex-direction: column;
-  margin-block-start: auto;
-  color: white;
-  align-items: flex-start;
-  padding-inline-start: 50%;
-}
-
-.App-list-elem{
-  color: white;
-  font-size: calc(6px + 1.5vmin);
-}
-
